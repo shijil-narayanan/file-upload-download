@@ -1,0 +1,29 @@
+.upload-btn{
+  margin-top:20px;
+}
+
+.upload-icon{
+  font-size: 50px;
+  color:#ddd;
+}
+.upload-text{
+  margin-top:15px;
+  font-size:16px;
+}
+
+.upload-card{
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.upload-section{
+  height: 100vh;
+  position: relative;
+  background: #f5f5f5;
+}
+
+.uploaded-list{
+  height: calc(100vh - 70px);
+  overflow: auto;
+}

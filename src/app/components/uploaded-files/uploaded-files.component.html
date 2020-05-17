@@ -1,0 +1,23 @@
+<mat-list>
+  <mat-list-item *ngFor="let file of (files$ | async); last as last;" >
+    <div fxLayout="row" class="uploaded-list">
+      <div fxFlex="15" fxLayoutAlign="center center">
+        <mat-icon class="file-icon">file_copy</mat-icon>
+      </div>
+      <div fxFlex="50" class="text-ellipsis file-name" fxLayoutAlign="start center">
+        {{file.originalname}}
+      </div>
+      <div fxFlex="10" class="file-size" fxLayoutAlign="start center">
+        {{file.size | bytesToSize}}
+      </div>
+      <div fxFlex="20" fxLayoutAlign="center center" class="file-action">
+        <mat-icon color="primary" (click)="downLoadFile(file)">cloud_download</mat-icon>
+        <mat-icon color="primary" class="delete-icon" (click)="deleteFile(file._id)">delete</mat-icon>
+      </div>
+    </div>
+    <mat-divider *ngIf="!last"></mat-divider>
+  </mat-list-item>
+</mat-list>
+
+
+

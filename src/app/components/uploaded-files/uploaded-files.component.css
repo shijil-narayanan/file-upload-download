@@ -1,0 +1,38 @@
+mat-list-item.mat-list-item{
+  height:70px;
+}
+.uploaded-list{
+  width: 100%;
+}
+
+.file-size{
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.file-icon{
+  color: #ddd;
+}
+
+.delete-icon{
+  margin-left: 10px;
+}
+
+.file-action mat-icon{
+  cursor:pointer;
+}
+
+.empty-list-section{
+  text-align: center;
+  margin-top:15vh;
+}
+
+.no-files-icon{
+  font-size: 50px;
+  color:#ddd;
+}
+
+.no-files-text{
+  font-size: 15px;
+  padding-top: 15px;
+}

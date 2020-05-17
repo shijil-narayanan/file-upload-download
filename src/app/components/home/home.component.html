@@ -1,0 +1,23 @@
+
+<div fxLayout="row">
+
+  <div fxFlex="50%" class="upload-section" >
+    <mat-toolbar color="primary">Uploads</mat-toolbar>
+    <mat-card class="upload-card">
+      <div class="upload-icon"><mat-icon [inline]="true">cloud_upload</mat-icon></div>
+      <div class="upload-text">Select files to upload</div>
+      <input type="file" #fileInput (change)="onFileSelect($event)" name="files" multiple  style="display:none;" />
+      <button  mat-raised-button color="primary" class="upload-btn" (click)="fileInput.click()">
+        Select files
+      </button>
+    </mat-card>
+  </div>
+
+  <div fxFlex="50%">
+    <mat-toolbar color="primary">Downloads</mat-toolbar>
+    <div class="uploaded-list">
+      <app-uploaded-files></app-uploaded-files>
+    </div>
+  </div>
+
+</div>
