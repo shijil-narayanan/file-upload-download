@@ -1,6 +1,6 @@
 # File Upload and Download
 
-This is a basic file upload and download app built using Angular 9 as frontend and NodeJs as backend and MongoDB as the database.
+This is a basic file upload and download app built using Angular 9 as frontend and NodeJs as backend and MongoDB as the database.All the uploaded files will be stored within the file system on the server end whereas all the meta data information of the files will be stored within Mongo data base.
 
 ## Getting Started
 
