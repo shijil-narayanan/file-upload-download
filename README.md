@@ -17,7 +17,7 @@ Another must is a MongoDB database URL.
 Once the project is cloned in your system,execute the following command in the terminal.
 
 ```
-$npm install
+npm install
 ```
 
 The above command will install all the required node modules to run the app.Once all the node modules are installed.
