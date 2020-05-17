@@ -20,7 +20,11 @@ Once the project is cloned in your system,execute the following command in the t
 npm install
 ```
 
-The above command will install all the required node modules to run the app.Once all the node modules are installed,traverse to `constants.ts` file placed under constants folder inside server directory.Replace the `dbUrl` url value by your MongoDb URL.Execute 
+The above command will install all the required node modules to run the app.Once all the node modules are installed,traverse to `constants.ts` file placed under constants folder inside server directory.
+
+Replace the `dbUrl` url value by your MongoDb URL.Create `uploads` folder on root directory.
+
+Execute 
 
 
 ```
