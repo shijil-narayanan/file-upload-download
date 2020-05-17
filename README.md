@@ -24,7 +24,7 @@ The above command will install all the required node modules to run the app.
 
 Once all the node modules are installed,traverse to `constants.ts` file placed under constants folder inside server directory.
 
-Replace the `dbUrl` url value by your MongoDb URL.Create `uploads` folder on root directory.
+Replace the `dbUrl` url value by your MongoDb URL.Create `uploads` folder in root directory.
 
 Execute the following command 
 
