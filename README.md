@@ -45,8 +45,10 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 ## Built With
 
 * [Angular 9](https://angular.io/) 
+* [Angular Material](https://material.angular.io/)
 * [NodeJs](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
+* [Multer](https://www.npmjs.com/package/multer)
 * [MongoDB](https://www.mongodb.com/)
 
 
