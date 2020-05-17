@@ -11,10 +11,6 @@ You need to have latest version of Node installed in your machine.Node version 1
 
 Another must is a MongoDB database URL.
 
-```
-Give examples
-```
-
 ### Installing
 
 
